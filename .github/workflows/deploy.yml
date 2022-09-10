@@ -59,6 +59,9 @@ jobs:
           role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN}}
           aws-region: ${{ secrets.AWS_REGION }}
 
+      - name: Get AWS Caller Identity
+        run: aws sts get-caller-identity
+
       - name: Terraform initialise
         run: >
           terraform init 
