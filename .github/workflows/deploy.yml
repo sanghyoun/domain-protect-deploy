@@ -39,7 +39,7 @@ jobs:
       - name: checkout Domain Protect
         uses: actions/checkout@v3
         with:
-          repository: ovotech/domain-protect
+          repository: sanghyoun/domain-protect
           ref: refs/heads/main
 
       - name: Set up Python 3.9
@@ -107,7 +107,7 @@ jobs:
       - name: checkout Domain Protect
         uses: actions/checkout@v3
         with:
-          repository: ovotech/domain-protect
+          repository: sanghyoun/domain-protect
           ref: refs/heads/main
 
       - name: Configure AWS Credentials
@@ -166,7 +166,7 @@ jobs:
       - name: checkout Domain Protect
         uses: actions/checkout@v3
         with:
-          repository: ovotech/domain-protect
+          repository: sanghyoun/domain-protect
           ref: refs/heads/main
 
       - name: Set up Python 3.9
